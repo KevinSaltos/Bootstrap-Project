@@ -1,0 +1,99 @@
+/*
+Paleta de colores:
+https://coolors.co/000000-451400-6b321b-ad2118-ffffff
+*/
+#body{
+    margin: 0;
+    padding: 0;
+    font-family:'Bahnschrift';
+}
+
+#header a{
+    color: #451200;
+    font-family: 'Arial Black';
+}
+
+.navbar-brand{
+    justify-content: flex-start;
+}
+
+#logo{
+    max-height: 50px;
+}
+
+#text-llamado{
+    color: #AD2118 !important;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+#carousel{
+    position: relative; /*Para que se adapte a la pantalla*/
+}
+
+
+#main .carousel-inner img{
+    max-height: 80vh;
+    object-fit: cover;
+}
+
+.carousel-item{
+    max-height: 60vh;
+}
+
+#imgcarousel{
+    /*70% de lo que se ve*/
+    max-height: 70vh;
+
+    object-fit: cover;
+    /*Le tiñe de cierta manera*/
+    filter: sepia(30%);
+}
+
+#carouselExampleInterval{
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.overlay{
+    position: absolute; /* Para que se adapte al carousel*/
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); /*el último es la opacidad*/
+    color: #ffffff;
+}
+
+
+#carusel{
+    max-height: 80vh;
+    object-fit: cover;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left:500px;
+}
+
+
+.btn.btn-dark {
+    background-color: #AD2118;
+}
+
+
+#evento-marca{
+    background-color: #6B321B;
+    color: #ffffff;
+}
+
+#evento-marca img{
+    max-width: 100%; /*Le obliga a adaptarse al 100% de la pantalla*/
+}
+
+
+
+#footer a{
+    color: #451200;
+    font-family: 'Arial Black';
+}
+
