@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Posho Asado</title>
+    <link rel="stylesheet" href="css/Colaborador.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body id="body">
+    <!--Aquí comienza el Header-->
+    <header id="header" class="sticky-top">
+      <nav class="navbar navbar-expand-lg m-0 p-0">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <img id="logo" src="assets/icono.webp" alt="LOGO" class="d-inline-block">
+              Posho Asado
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto me-3 mb-2 mb-lg-0">
+              <li class="nav-item me-4 offset-md-10 offset-lg-0">
+                <a class="nav-link active" href="./Catalogo.html">Combos</a>
+              </li>
+              <li class="nav-item me-4 offset-md-10 offset-lg-0">
+                <a class="nav-link" href="./Contactanos.html">Contáctanos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--Aquí finaliza el header y comienza el main-->
+    <main id="main">
+
+      <!--Finaliza eventos y Marca; Comienza Inscripción como colaborador-->
+      <section id="conviertete-en-colaborador" class="pt-3 pb-3">
+        <div class="container">
+          <div class="row">
+            <div class="col text-uppercase text-center">
+              <small>Conviértete en</small>
+              <h2>Colaborador</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col text-center">
+              <!--Agregar un tooltip-->
+              <p>Anótate como <abbr data-bs-toggle="tooltip" data-bs-html="true" title="Miembro oficial de Posho Asado">colaborador de Posho Asado</abbr>
+                  para que aumentes tus ingresos!</p>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+                <form id="form">
+                  <div class="alert alert-danger" role="alert">
+                    ¡Quedan menos de 100 vacantes, ven y forma parte de la la familia Posho Asado!
+                   </div>
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Nombre</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Apellido</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <textarea class="form-control" placeholder="Dinos por qué quieres formar parte 
+                    de nuestra Familia" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Dinos por qué quieres formar parte 
+                      de nuestra Familia</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <div class="d-grid gap-2">
+                      <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#modalFormulario">ENVIAR</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--FInal de Inscripción como colaborador-->
+    </main>
+<!--Aquí comienza el footer-->
+<!--pb=padding buttom; pt=padding top-->
+<footer id="footer" class="pb-4 pt-4">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-12 col-md-6 col-lg">
+        <a href="./index.html">Home</a>
+      </div>
+      <div class="col-12 col-md-6 col-lg">
+        <a href="./Contactanos.html">Contáctanos</a>
+      </div>
+      <div class="col-12 col-md-6 col-lg">
+        <a href="./Catalogo.html">Productos</a>
+      </div>
+      <div class="col-12 col-md-6 col-lg">
+        <a href="./Colaborador.html">Trabaja con Nosotros</a>
+      </div>
+  </div>
+  </div>
+</footer>
+    <!--Modal-->
+    <div class="modal fade" id="modalFormulario" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">¿Convertirte en Colaborador?</h5>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-row">
+                <div class="form-group col">  
+                  <small>Ingresa tu Correo Electrónico</small>
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
+                  </div>
+                  <div class="alert alert-info" role="alert">
+                    Se te enviará un correo de respuesta!
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-dismiss="modal">Cancelar</button>
+            <button type="button"  id="btnmodaldark" class="btn btn-dark">Confirmar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Fin Modal-->
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="/Tareas/Bootstrap Project/index.js"></script>
+</html>
