@@ -8,6 +8,10 @@ https://coolors.co/000000-451400-6b321b-ad2118-ffffff
     font-family:'Bahnschrift';
 }
 
+#header{
+    background-color: #ffffff;
+}
+
 #header a{
     color: #451200;
     font-family: 'Arial Black';
@@ -91,9 +95,20 @@ https://coolors.co/000000-451400-6b321b-ad2118-ffffff
 }
 
 
+#conviertete-en-colaborador{
+    background-color: #6B321B;
+    color:#ffffff !important;
+}
 
+#conviertete-en-colaborador label{
+    color: #000000;
+}
 #footer a{
     color: #451200;
     font-family: 'Arial Black';
+}
+
+#btnmodaldark{
+    background-color: #000000;
 }
 
